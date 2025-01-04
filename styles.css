@@ -30,4 +30,9 @@ body {
     background-color: var(--bg);
     width: 2.5rem;
     aspect-ratio: 1;
+    transition: background-color 2s ease;
+}
+
+.tile:hover {
+    transition-duration: 0s;
 }
