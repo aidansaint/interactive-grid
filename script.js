@@ -45,4 +45,4 @@ container.addEventListener("mouseout", (e) => {
   }
 });
 
-createTiles(4096);
+createTiles(1024);

@@ -19,16 +19,16 @@ body {
     position: fixed;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%) rotateX(60deg) rotateZ(30deg) translateZ(-32rem);
+    transform: translate(-50%, -50%) rotateX(55deg) rotateY(-5deg) rotateZ(35deg) translateZ(-32rem);
     border: 1px solid var(--border);
     display: grid;
-    grid-template-columns: repeat(64, 1fr);
+    grid-template-columns: repeat(32, 1fr);
     gap: 1px;
 }
 
 .tile {
     background-color: var(--bg);
-    width: 2.5rem;
+    width: 5rem;
     aspect-ratio: 1;
     transition: background-color 2s ease;
 }
